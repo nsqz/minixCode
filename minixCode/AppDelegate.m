@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    NSArray *arr=@[@"一",@"二",@"三",@"四"];
+//    NSLog(@"%@",arr);
     return YES;
 }
 
