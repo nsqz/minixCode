@@ -704,5 +704,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)getAllView:(id)sender {
+    NSArray *allView = self.dataScrollView.subviews;
+    NSLog(@"%@",allView);
+    if ( allView.count > 0 ) {
+        UIView  *a =allView[0];
+        CGRect frame = a.frame;
+        NSLog(@"%f,%f,%f,%f",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height);
+        
+    }
+   
+}
 
 @end
